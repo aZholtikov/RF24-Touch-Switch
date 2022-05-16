@@ -1,10 +1,10 @@
-#include <Arduino.h>
-#include <Arduino_FreeRTOS.h>
-#include <nRF24L01.h>
-#include <RF24.h>
-#include <avr/interrupt.h>
-#include <semphr.h>
-#include <ZHRF24SensorProtocol.h>
+#include "Arduino.h"
+#include "Arduino_FreeRTOS.h"
+#include "nRF24L01.h"
+#include "RF24.h"
+#include "avr/interrupt.h"
+#include "semphr.h"
+#include "ZHRF24SensorProtocol.h"
 
 #define ID 1 // Уникальный идентификатор устройства RF24 в сети.
 #define PIPE 0xDDEEFF
