@@ -10,4 +10,6 @@
 
 ## Примечание:
 
-Подробности см. в папке "hardware".
+1. Работает на основе протокола передачи данных [ZH RF24 Sensor Protocol](https://github.com/aZholtikov/ZH-RF24-Sensor-Protocol).
+2. Для работы в сети необходимо наличие [RF24 - ESP-NOW Gateway](https://github.com/aZholtikov/RF24-ESP-NOW-Gateway).
+3. Подробности "железа" см. в папке "hardware".
